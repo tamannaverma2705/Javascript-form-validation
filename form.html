@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+
+    <label>Name:</label><br>
+    <input type="text" id="name"><br>
+
+    <label>Email:</label><br>
+    <input type="text" id="email"><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password"><br>
+
+    <label>Mobile Number:</label><br>
+    <input type="text" id="mobile"><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
